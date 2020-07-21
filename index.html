@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="intro col-12">
+          <h1>My To-Dos</h1>
+          <p>Click on todo to mark it as done</p>
+          <div>
+            <div class="border1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="New item..."
+            maxlength="40"
+          />
+          <button id="enter" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+
+      <!-- Empty List -->
+      <div class="row">
+        <div class="listItems col-12">
+          <ul class="col-12"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
